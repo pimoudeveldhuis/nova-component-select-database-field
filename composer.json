@@ -1,0 +1,32 @@
+{
+    "name": "pimoudeveldhuis/nova-component-select-database-field",
+    "description": "A Laravel Nova field for editing ordered arrays with selectable options.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "field",
+        "fields",
+        "select",
+        "array",
+        "database"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "laravel/nova": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PimOudeVeldhuis\\NovaSelectDatabaseField\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PimOudeVeldhuis\\NovaSelectDatabaseField\\FieldServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

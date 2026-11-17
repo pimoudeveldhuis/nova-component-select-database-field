@@ -1,0 +1,12 @@
+{
+    "private": true,
+    "scripts": {
+        "development": "mix",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "laravel-mix": "^6.0.41",
+        "vue-loader": "^16.8.3",
+        "webpack": "^5.0.0"
+    }
+}
